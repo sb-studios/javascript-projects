@@ -1,0 +1,16 @@
+{
+  "name": "js-projects",
+  "version": "0.0.1",
+  "description": "A curated collection of JavaScript projects designed to showcase functionality, creativity, and coding best practices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "standard": "standard"
+  },
+  "author": "sb-studios",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "standard": "^17.1.2"
+  }
+}
