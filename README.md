@@ -34,14 +34,21 @@ To get started, follow these steps:
     git clone https://github.com/sb-studios/javascript-projects.git
     ```
 To run an individual project, follow these steps:
-1. Navigate to a project directory
-    ```bash
-    cd project-directory-name
-    ```
 1. Install dependencies
     ```bash
     npm install
     ```
+
+1. Navigate to a project directory
+    ```bash
+    cd project-directory-name
+    ```
+
+1. Install project specific dependencies
+    ```bash
+    npm install
+    ```
+
 1. Run the project
     ```
     npm start

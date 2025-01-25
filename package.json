@@ -11,6 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.7.0",
+    "parcel": "^2.13.3",
     "standard": "^17.1.2"
   }
 }
