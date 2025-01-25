@@ -38,7 +38,7 @@ To run an individual project, follow these steps:
     ```bash
     cd project-directory-name
     ```
-1. Install dependencies (if required)
+1. Install dependencies
     ```bash
     npm install
     ```
@@ -56,7 +56,7 @@ To run the tests, follow these steps:
 
 1. Install developer dependencies
     ```bash
-    npm install --dev
+    npm install --save-dev
     ```
 1. Run the tests
     ```bash
@@ -79,8 +79,8 @@ Please make sure your code follows the project's coding style.
 
 ## Version History
 
-- **0.0.1**  
-  Initial setup of project
+- **v0.0.1**  
+Initial setup of project
 
 ## License
 
