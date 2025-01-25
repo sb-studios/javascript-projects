@@ -1,0 +1,13 @@
+{
+  "name": "background-color-changer",
+  "version": "0.0.1",
+  "description": "An app that allows users to explore a variety of background colors with a simple button click.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "standard": "standard",
+    "start": "parcel index.html --lazy --open"
+  },
+  "author": "sb-studios",
+  "license": "MIT"
+}
