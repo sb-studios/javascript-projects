@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "standard": "standard",
-    "start": "parcel index.html --lazy --open"
+    "start": " http-server -s -o"
   },
   "author": "sb-studios",
   "license": "MIT"

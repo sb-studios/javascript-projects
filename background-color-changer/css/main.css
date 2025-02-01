@@ -24,8 +24,8 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 375px;
-    min-width: 375px;
+    min-height: 450px;
+    min-width: 450px;
 }
 
 /* Navigation styles */
@@ -41,6 +41,7 @@ nav {
 nav h4 {
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 1.4rem;
     color: var(--primary-header-color);
 }
 
@@ -62,6 +63,7 @@ nav ul li a {
     text-decoration: none;
     color: var(--text-color);
     font-weight: 500;
+    font-size: 1.4rem;
     transition: color 0.3s;
 }
 
@@ -74,7 +76,7 @@ header {
     text-align: center;
     padding: 2rem;
     background-color: var(--nav-background-color);
-    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.3);
 }
 
 header h2 {
@@ -93,12 +95,13 @@ button {
     font-weight: 600;
     color: var(--text-color);
     background-color: transparent;
-    border: 2px solid black;
-    border-radius: 4px;
+    border: 4px solid var(--primary-accent-color);
+    border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     width: 100%;
-    max-width: 200px;
+    min-width: 250px;
+    box-shadow: 2px 1px 3px 0px rgba(0, 0, 0, 0.3);
 }
 
 button:hover {
@@ -114,7 +117,8 @@ button:active {
 .button-container {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin: 10% 40% 0 40%;
+    border-radius: 5px;
 }
 
 .current-link {
@@ -134,18 +138,12 @@ button:active {
 
     nav ul {
         margin-top: 1rem;
-        flex-direction: row;
         width: 100%;
         justify-content: flex-start;
-    }
-
-    header h2 {
-        font-size: 2rem;
     }
 
     .button-container {
         flex-direction: column;
         align-items: center;
-
     }
 }

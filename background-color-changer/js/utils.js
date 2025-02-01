@@ -13,3 +13,15 @@ export function changeBackgroundColor (color) {
 export function changeText (currentText, newText) {
   currentText.textContent = newText
 }
+
+export function copyTextToClipboard (textElement, changeTextElement) {
+  const text = textElement.value || textElement.textContent
+  navigator.clipboard.writeText(text)
+    .then(() => {
+      changeText(textElement, 'Copied!')
+      textElement.style.textTransform = 'none'
+    })
+    .catch(err => {
+      console.error('Error copying text: ', err)
+    })
+}
