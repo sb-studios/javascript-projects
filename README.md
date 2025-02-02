@@ -25,6 +25,7 @@ Each project in this collection is standalone and includes:
 
 | Project Name | Description | Directory Link |
 |:-------------|:------------|:---------------|
+| Background Color Changer | Explore a variety of background colors | [background-color-changer](./background-color-changer/)
 
 ## Getting Started
 
