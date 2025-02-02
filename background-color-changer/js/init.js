@@ -1,0 +1,6 @@
+export const currentText = document.getElementById('current-text')
+export const changeCssColorButton = document.getElementById('change-css-color-button')
+export const changeHexColorButton = document.getElementById('change-hex-color-button')
+export const changeRgbColorButton = document.getElementById('change-rgb-color-button')
+export const changeHslColorButton = document.getElementById('change-hsl-color-button')
+export const copyColorButton = document.getElementById('copy-color-button')
