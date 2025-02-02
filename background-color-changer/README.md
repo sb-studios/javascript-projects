@@ -5,7 +5,7 @@
 ## Table of Contents
 
 1. [Overview](#Overview)
-1.  [Features](#features)  
+1. [Features](#features)  
 1. [Dependencies](#dependencies) 
 1. [Usage](#usage)  
 1. [Key Takeaways](#key-takeaways)
@@ -49,6 +49,9 @@ This project is a web-based application designed to let you effortlessly experim
 **SB Studios** (sb-studios)
 
 ## Version History
+
+- **v1.0.0**
+Completed project
 
 - **v0.0.1**  
 Initial setup of project
