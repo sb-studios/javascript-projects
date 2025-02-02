@@ -5,7 +5,7 @@
 ## Table of Contents
 
 1. [Overview](#Overview)
-1  [Features](#features)  
+1.  [Features](#features)  
 1. [Dependencies](#dependencies) 
 1. [Usage](#usage)  
 1. [Key Takeaways](#key-takeaways)
